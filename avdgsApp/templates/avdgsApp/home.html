@@ -1,0 +1,28 @@
+{% load bootstrap4 %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Enhanced Aircraft Docking System</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Center the content vertically */
+        .vh-100 {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container vh-100">
+        <div class="text-center">
+            <h1 class="display-4" style="font-size: 3rem;">WELCOME TO AI ENHANCED AIRCRAFT DOCKING SYSTEM</h1>
+            <a href="{% url 'camera_feed' %}" class="btn btn-primary btn-lg mt-3">Open Camera</a>
+        </div>
+    </div>
+</body>
+</html>
